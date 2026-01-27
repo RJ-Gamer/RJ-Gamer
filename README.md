@@ -1,93 +1,129 @@
 # 👋 Hi, I’m Rajat Jog
 
-Senior Software Engineer • Full-Stack Architect • Python/Django Specialist  
-I design **correct, scalable systems** where business logic, data integrity, and long-term maintainability actually matter.
-
----
+Senior Software Engineer • Backend Architect • Python/Django Specialist  
+I design **deterministic, scalable systems** where correctness, data integrity, and long-term evolution are non-negotiable.
 
 <p align="center">
   <a href="https://www.credly.com/badges/ac9bf89a-a90f-470e-852d-1b45f42881c8">
-    <img src="./aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning – Specialty" width="180"/>
+    <img src="./aws-certified-machine-learning-specialty.png"
+         alt="AWS Certified Machine Learning – Specialty"
+         width="170" />
   </a>
+  <br/>
+  <sub>AWS Certified — Machine Learning (Production & Systems Focus)</sub>
 </p>
 
+---
 
-## 🧠 How I Think
+## 🧠 How I Approach Software
 
-I approach software the way an architect approaches a city:
+I treat software systems like infrastructure, not experiments.
 
-- **Correctness before cleverness**
-- **Explicit models over implicit magic**
-- **Deterministic systems over fragile heuristics**
-- **Auditability, idempotency, and safety as first-class concerns**
+My default assumptions:
+- Systems **will** be misused
+- Edge cases **will** happen
+- Time, money, and humans **will** break naive designs
 
-I’m not interested in “just making it work.”  
-I care about *why it works, when it breaks, and how it evolves*.
+So I optimize for:
+- **Explicit models over implicit behavior**
+- **State machines over boolean flags**
+- **Database constraints over application hope**
+- **Idempotency, auditability, and safety by design**
+
+I’m not interested in “making it work.”  
+I care about *why it works, when it fails, and how it can evolve without rewrites*.
 
 ---
 
-## 🛠 Core Stack
+## 🤖 Machine Learning (Production-Oriented)
 
-**Backend**
+I’m AWS Certified in **Machine Learning – Specialty**, with a focus on **designing, deploying, and operating ML systems in production**, not notebook-only models.
+
+My ML work emphasizes:
+- Selecting the **right ML approach** (or deciding when *not* to use ML)
+- Designing **data pipelines** that prevent leakage and silent drift
+- Training, evaluating, and tuning models with **business-aligned metrics**
+- Deploying ML systems with:
+  - versioned models
+  - reproducible training
+  - monitored inference
+  - safe rollback paths
+
+I’m particularly opinionated about:
+- ML correctness > model complexity
+- Clear separation between **training**, **validation**, and **inference**
+- Treating ML components as **stateful system dependencies**, not magic functions
+- Observability for ML (inputs, outputs, confidence, degradation)
+
+In short:  
+I think about ML the same way I think about backend systems — **explicit, testable, auditable, and failure-aware**.
+
+---
+
+## 🛠 Core Technical Stack
+
+### Backend & Data
 - Python, Django, Django REST Framework
-- PostgreSQL (schema design, constraints, indexing)
-- Background workers, idempotent jobs, transactional workflows
+- PostgreSQL (schema design, constraints, indexing, migrations)
+- Transactional workflows & background jobs
+- Concurrency-safe operations and retries
 
-**Frontend**
+### Frontend (System-Oriented)
 - React, Next.js
 - API-driven UI architecture
-- Clean state management & predictable data flows
+- Predictable state & data flow boundaries
 
-**Architecture & Infra**
+### Architecture & Platform Concerns
 - RESTful API design
 - Role-based access control (RBAC)
-- Audit logging, compliance-friendly systems
-- Payments, booking engines, scheduling logic
-- Scalable slot & recurrence modeling
+- Audit logging & compliance-friendly systems
+- Payments, booking engines, scheduling & slot modeling
+- Timezone-aware, recurrence-safe designs
 
 ---
 
-## 🧩 What I’m Especially Good At
+## 🧩 What I’m Particularly Strong At
 
-- Designing **complex domain models** (booking, payments, scheduling, healthcare workflows)
-- Preventing edge-case failures *before* they happen
-- Turning messy requirements into **clean, enforceable invariants**
+- Designing **complex domain models**  
+  (healthcare, booking, payments, scheduling, approvals)
+- Translating vague requirements into **enforceable invariants**
+- Preventing race conditions, double-spends, and ghost states
 - Building systems that are:
   - safe to regenerate
   - easy to reason about
   - hard to misuse
 
-If a system involves **time, money, concurrency, or humans** — that’s my zone.
+If a system involves **time, money, concurrency, or trust** — that’s my comfort zone.
+
+---
+
+## 🧪 Engineering Principles I Default To
+
+- Explicit state transitions over implicit side effects
+- Database truth > service assumptions
+- Idempotency everywhere it matters
+- Fail loudly, log clearly, recover deterministically
+- Documentation as part of the system, not an afterthought
 
 ---
 
 ## 📦 Open Source & Side Projects
 
-I enjoy extracting reusable ideas into libraries and frameworks:
+I enjoy extracting real-world production patterns into reusable tools:
 
-- Scheduling & time-block systems with deterministic behavior
-- Audit logging & compliance-friendly tooling
-- Django/DRF utilities that reduce foot-guns for teams
+- Deterministic scheduling & time-block systems
+- Audit logging & compliance-friendly utilities
+- Django / DRF abstractions that reduce foot-guns for teams
 
-My side projects usually start as solutions to real production pain — not toy demos.
-
----
-
-## 🧪 Engineering Principles I Follow
-
-- Explicit state machines over boolean flags
-- Database constraints > application assumptions
-- Idempotency everywhere it matters
-- Fail loudly, log clearly, recover gracefully
-- Documentation as part of the system, not an afterthought
+My side projects usually start as **solutions to production pain**, not demos.
 
 ---
 
 ## 🚀 What I’m Building Toward
 
 - Architect-level backend roles
-- High-impact SaaS products
-- Open-source tools that teams actually trust in production
+- High-impact, correctness-first SaaS products
+- Open-source tools teams can trust in production
 - Systems that scale **organizationally**, not just technically
 
 ---
@@ -97,4 +133,4 @@ My side projects usually start as solutions to real production pain — not toy 
 - LinkedIn: https://www.linkedin.com/in/rajat-jog/
 - GitHub: You’re already here 🙂
 
-If you care about **structure, clarity, and systems that survive contact with reality**, we’ll get along well.
+If you care about **clarity, structure, and systems that survive contact with reality**, we’ll get along well.
