@@ -5,6 +5,13 @@ I design **correct, scalable systems** where business logic, data integrity, and
 
 ---
 
+<p align="center">
+  <a href="https://www.credly.com/badges/ac9bf89a-a90f-470e-852d-1b45f42881c8">
+    <img src="./aws-certified-machine-learning-specialty.png" alt="AWS Certified Machine Learning – Specialty" width="180"/>
+  </a>
+</p>
+
+
 ## 🧠 How I Think
 
 I approach software the way an architect approaches a city:
