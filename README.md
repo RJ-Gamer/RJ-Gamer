@@ -276,9 +276,10 @@ I'm always interested in discussing:
 
 <div align="center">
 
-### 🌟 If you find my work useful, consider:
+### 🌟 If you find my open-source work useful:
 
 [![Star on GitHub](https://img.shields.io/github/stars/RJ-Gamer?style=social)](https://github.com/RJ-Gamer)
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ff69b4?logo=github&style=social)](https://github.com/sponsors/RJ-Gamer)
 [![Follow on LinkedIn](https://img.shields.io/badge/Follow-LinkedIn-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/rajat-jog/)
 
 *"Code should be boring. Systems should be interesting."*
